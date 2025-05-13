@@ -63,9 +63,11 @@ These steps helped reduce noise and retain meaningful semantics in text.
 
 ## 📊 Key Findings
 
+![Result](https://github.com/user-attachments/assets/da5efa8a-e1c3-4b14-a15a-1162153ef888)
+
 - TF-IDF alone captured term-frequency-based signals effectively.
 - MuRIL embeddings understood semantic nuances in Tamil, English, and code-mixed text.
-- **Combining both** led to the best macro F1 score of **0.802**.
+- **Combining both** led to the best macro F1 score of **0.802** on the test set.
 - **Soft Voting Classifier** using TF-IDF + MuRIL outperformed all individual models.
 - Contextual + statistical features were complementary, especially in noisy, multilingual text.
 
